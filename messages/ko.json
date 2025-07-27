@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "title": "리얼하게 찢었다",
+    "subtitle": "20대 남성을 위한 최강 동기부여 앱",
+    "cta": "지금 다운로드하고 인생을 바꾸세요"
+  },
+  "features": {
+    "title": "강력한 기능들",
+    "item1": {
+      "title": "매일 새로운 동기부여 명언",
+      "description": "매일 당신을 깨우는 강력한 메시지"
+    },
+    "item2": {
+      "title": "5가지 핵심 카테고리",
+      "description": "마인드셋, 돈, 힘, 규율, 성공"
+    },
+    "item3": {
+      "title": "일일 챌린지 시스템",
+      "description": "매일 도전하고 성장하세요"
+    },
+    "item4": {
+      "title": "성장 추적 & 레벨 시스템",
+      "description": "당신의 발전을 시각적으로 확인"
+    },
+    "item5": {
+      "title": "저장 및 공유 기능",
+      "description": "영감을 저장하고 친구들과 공유"
+    }
+  },
+  "screenshots": {
+    "title": "앱 미리보기"
+  },
+  "benefits": {
+    "title": "왜 리얼하게 찢었다인가?",
+    "item1": "20대 남성을 위해 특별히 디자인된 콘텐츠",
+    "item2": "매일 업데이트되는 신선한 동기부여",
+    "item3": "실제 행동으로 이어지는 실용적인 조언",
+    "item4": "커뮤니티와 함께 성장하는 경험"
+  },
+  "cta": {
+    "title": "오늘부터 시작하세요",
+    "subtitle": "더 나은 당신을 만들 준비가 되었나요?",
+    "downloadNow": "지금 다운로드"
+  },
+  "footer": {
+    "privacyPolicy": "개인정보처리방침",
+    "termsOfService": "이용약관",
+    "support": "지원",
+    "copyright": "© 2025 Ripped For Real. All rights reserved."
+  },
+  "common": {
+    "appStore": "App Store에서 다운로드",
+    "googlePlay": "Google Play에서 다운로드"
+  },
+  "privacy": {
+    "title": "개인정보처리방침",
+    "lastUpdated": "최종 업데이트: 2025년 7월 27일",
+    "sections": {
+      "collection": {
+        "title": "수집하는 정보",
+        "content": "저희는 사용자의 앱 사용 패턴, 기기 정보, 그리고 사용자가 자발적으로 제공하는 정보를 수집합니다."
+      },
+      "usage": {
+        "title": "정보 사용 방법",
+        "content": "수집된 정보는 서비스 개선, 맞춤형 콘텐츠 제공, 그리고 사용자 경험 향상을 위해 사용됩니다."
+      },
+      "storage": {
+        "title": "데이터 저장",
+        "content": "모든 데이터는 안전하게 암호화되어 저장되며, 업계 표준 보안 프로토콜을 따릅니다."
+      },
+      "thirdParty": {
+        "title": "제3자 서비스",
+        "content": "광고 표시를 위해 Google AdMob을 사용합니다. AdMob의 개인정보처리방침은 별도로 적용됩니다."
+      },
+      "rights": {
+        "title": "사용자 권리",
+        "content": "사용자는 언제든지 자신의 데이터에 대한 접근, 수정, 삭제를 요청할 수 있습니다."
+      },
+      "contact": {
+        "title": "연락처",
+        "content": "개인정보 관련 문의사항은 support@rippedforreal.com으로 연락주시기 바랍니다."
+      }
+    }
+  },
+  "terms": {
+    "title": "이용약관",
+    "lastUpdated": "최종 업데이트: 2025년 7월 27일",
+    "sections": {
+      "acceptance": {
+        "title": "약관 동의",
+        "content": "본 앱을 사용함으로써 귀하는 이 이용약관에 동의하는 것으로 간주됩니다."
+      },
+      "usage": {
+        "title": "사용 조건",
+        "content": "본 앱은 개인적이고 비상업적인 목적으로만 사용할 수 있습니다."
+      },
+      "content": {
+        "title": "콘텐츠 정책",
+        "content": "모든 콘텐츠는 저작권법의 보호를 받으며, 무단 복제나 배포는 금지됩니다."
+      },
+      "liability": {
+        "title": "책임 제한",
+        "content": "앱 사용으로 인한 직간접적 손해에 대해 책임을 지지 않습니다."
+      }
+    }
+  },
+  "support": {
+    "title": "지원",
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "앱이 무료인가요?",
+        "answer": "네, 기본 기능은 무료입니다. 추가 기능은 프리미엄 구독을 통해 이용할 수 있습니다."
+      },
+      "q2": {
+        "question": "데이터는 안전한가요?",
+        "answer": "모든 데이터는 암호화되어 안전하게 보호됩니다."
+      },
+      "q3": {
+        "question": "문제가 발생했을 때 어떻게 해야 하나요?",
+        "answer": "support@rippedforreal.com으로 문의해 주시면 신속히 도와드리겠습니다."
+      }
+    },
+    "contact": {
+      "title": "문의하기",
+      "email": "이메일: support@rippedforreal.com",
+      "response": "24시간 이내에 답변드리겠습니다."
+    }
+  }
+}

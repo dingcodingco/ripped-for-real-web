@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "title": "Ripped For Real",
+    "subtitle": "The Ultimate Motivation App for Men in Their 20s",
+    "cta": "Download Now and Transform Your Life"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "item1": {
+      "title": "Daily Motivational Quotes",
+      "description": "Powerful messages to wake you up every day"
+    },
+    "item2": {
+      "title": "5 Core Categories",
+      "description": "Mindset, Money, Strength, Discipline, Success"
+    },
+    "item3": {
+      "title": "Daily Challenge System",
+      "description": "Challenge yourself and grow every day"
+    },
+    "item4": {
+      "title": "Progress Tracking & Levels",
+      "description": "Visualize your growth and development"
+    },
+    "item5": {
+      "title": "Save & Share Features",
+      "description": "Save inspiration and share with friends"
+    }
+  },
+  "screenshots": {
+    "title": "App Preview"
+  },
+  "benefits": {
+    "title": "Why Choose Ripped For Real?",
+    "item1": "Content specifically designed for men in their 20s",
+    "item2": "Fresh motivation updated daily",
+    "item3": "Practical advice that leads to real action",
+    "item4": "Grow together with the community"
+  },
+  "cta": {
+    "title": "Start Today",
+    "subtitle": "Are you ready to become a better version of yourself?",
+    "downloadNow": "Download Now"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "support": "Support",
+    "copyright": "© 2025 Ripped For Real. All rights reserved."
+  },
+  "common": {
+    "appStore": "Download on the App Store",
+    "googlePlay": "Get it on Google Play"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: July 27, 2025",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect information about your app usage patterns, device information, and information you voluntarily provide."
+      },
+      "usage": {
+        "title": "How We Use Information",
+        "content": "The collected information is used to improve our services, provide personalized content, and enhance user experience."
+      },
+      "storage": {
+        "title": "Data Storage",
+        "content": "All data is securely encrypted and stored following industry-standard security protocols."
+      },
+      "thirdParty": {
+        "title": "Third-Party Services",
+        "content": "We use Google AdMob for advertising. AdMob's privacy policy applies separately."
+      },
+      "rights": {
+        "title": "User Rights",
+        "content": "Users can request access, modification, or deletion of their data at any time."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "For privacy-related inquiries, please contact us at support@rippedforreal.com."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: July 27, 2025",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By using this app, you are deemed to agree to these terms of service."
+      },
+      "usage": {
+        "title": "Terms of Use",
+        "content": "This app may only be used for personal and non-commercial purposes."
+      },
+      "content": {
+        "title": "Content Policy",
+        "content": "All content is protected by copyright law, and unauthorized reproduction or distribution is prohibited."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "We are not liable for any direct or indirect damages resulting from the use of the app."
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "Is the app free?",
+        "answer": "Yes, basic features are free. Additional features are available through premium subscription."
+      },
+      "q2": {
+        "question": "Is my data safe?",
+        "answer": "All data is encrypted and securely protected."
+      },
+      "q3": {
+        "question": "What should I do if I encounter a problem?",
+        "answer": "Please contact us at support@rippedforreal.com and we'll help you promptly."
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "Email: support@rippedforreal.com",
+      "response": "We'll respond within 24 hours."
+    }
+  }
+}
