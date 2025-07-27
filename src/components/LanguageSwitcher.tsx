@@ -15,20 +15,16 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex items-center space-x-1 rounded-full p-1" style={{ backgroundColor: 'var(--dark-grey)' }}>
+    <div className="flex items-center space-x-1 bg-dark-grey rounded-full p-1">
       {Object.entries(localeNames).map(([key, name]) => (
         <button
           key={key}
           onClick={() => handleLanguageChange(key)}
           className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
             locale === key
-              ? ''
-              : 'hover:text-white'
+              ? 'bg-primary-orange text-primary-black'
+              : 'text-text-grey hover:text-white'
           }`}
-          style={{
-            backgroundColor: locale === key ? 'var(--primary-orange)' : 'transparent',
-            color: locale === key ? 'var(--primary-black)' : 'var(--text-grey)'
-          }}
         >
           {name}
         </button>
