@@ -22,7 +22,8 @@ export default function TermsPage() {
         <div className="container mx-auto max-w-4xl">
           <Link 
             href="/" 
-            className="inline-flex items-center text-primary-orange hover:text-orange-400 mb-8 transition-colors"
+            className="inline-flex items-center mb-8 transition-colors hover:opacity-80"
+            style={{ color: 'var(--primary-orange)' }}
           >
             <ArrowLeft className="w-5 h-5 mr-2" />
             <span>Back to Home</span>
@@ -32,19 +33,20 @@ export default function TermsPage() {
             {t('title')}
           </h1>
           
-          <p className="text-text-grey mb-12">
+          <p className="mb-12" style={{ color: 'var(--text-grey)' }}>
             {t('lastUpdated')}
           </p>
           
           {/* Table of Contents */}
-          <div className="bg-dark-grey rounded-2xl p-6 mb-12">
+          <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: 'var(--dark-grey)' }}>
             <h2 className="text-xl font-semibold mb-4">Table of Contents</h2>
             <ul className="space-y-2">
               {sections.map((section) => (
                 <li key={section}>
                   <a 
                     href={`#${section}`}
-                    className="text-text-grey hover:text-primary-orange transition-colors"
+                    className="transition-colors hover:opacity-80"
+                    style={{ color: 'var(--text-grey)' }}
                   >
                     {t(`sections.${section}.title`)}
                   </a>
