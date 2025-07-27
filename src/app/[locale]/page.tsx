@@ -66,10 +66,7 @@ export default function HomePage() {
               return (
                 <div
                   key={index}
-                  className="rounded-2xl p-8 transition-all transform hover:scale-105"
-                  style={{ backgroundColor: 'rgba(51, 51, 51, 0.3)' }}
-                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(51, 51, 51, 0.5)'}
-                  onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'rgba(51, 51, 51, 0.3)'}
+                  className="feature-card rounded-2xl p-8 transition-all transform hover:scale-105"
                 >
                   <Icon className="w-12 h-12 mb-4" style={{ color: 'var(--primary-orange)' }} />
                   <h3 className="text-xl font-bold mb-3">
@@ -95,10 +92,7 @@ export default function HomePage() {
             {screenshots.map((screenshot, index) => (
               <div
                 key={index}
-                className="relative aspect-[9/19] rounded-2xl overflow-hidden shadow-2xl transition-all transform hover:scale-105"
-                style={{ boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)' }}
-                onMouseEnter={(e) => e.currentTarget.style.boxShadow = '0 25px 50px -12px rgba(255, 165, 0, 0.2)'}
-                onMouseLeave={(e) => e.currentTarget.style.boxShadow = '0 25px 50px -12px rgba(0, 0, 0, 0.25)'}
+                className="screenshot-card relative aspect-[9/19] rounded-2xl overflow-hidden shadow-2xl transition-all transform hover:scale-105"
               >
                 <Image
                   src={screenshot}

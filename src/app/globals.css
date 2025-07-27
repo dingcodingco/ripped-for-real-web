@@ -83,3 +83,21 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Feature card hover */
+.feature-card {
+  background-color: rgba(51, 51, 51, 0.3);
+}
+
+.feature-card:hover {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+/* Screenshot hover */
+.screenshot-card {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.screenshot-card:hover {
+  box-shadow: 0 25px 50px -12px rgba(255, 165, 0, 0.2);
+}
