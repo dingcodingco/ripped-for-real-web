@@ -1,16 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary-black: #000000;
-  --color-primary-orange: #FFA500;
-  --color-dark-grey: #1A1A1A;
-  --color-medium-grey: #333333;
-  --color-light-grey: #666666;
-  --color-text-grey: #999999;
-  --color-success-green: #4CAF50;
-  --color-background: #0A0A0A;
-}
-
 :root {
   --primary-black: #000000;
   --primary-orange: #FFA500;
@@ -86,11 +75,11 @@ body {
 
 /* Feature card hover */
 .feature-card {
-  background-color: rgba(51, 51, 51, 0.3);
+  background-color: rgba(31, 41, 55, 0.5); /* gray-800 with opacity */
 }
 
 .feature-card:hover {
-  background-color: rgba(51, 51, 51, 0.5);
+  background-color: rgba(31, 41, 55, 0.8);
 }
 
 /* Screenshot hover */
@@ -102,43 +91,3 @@ body {
   box-shadow: 0 25px 50px -12px rgba(255, 165, 0, 0.2);
 }
 
-/* Custom utility classes for colors */
-.bg-primary-black {
-  background-color: #000000 !important;
-}
-
-.bg-primary-orange {
-  background-color: #FFA500 !important;
-}
-
-.bg-dark-grey {
-  background-color: #1A1A1A !important;
-}
-
-.bg-medium-grey\/30 {
-  background-color: rgba(51, 51, 51, 0.3) !important;
-}
-
-.bg-dark-grey\/50 {
-  background-color: rgba(26, 26, 26, 0.5) !important;
-}
-
-.bg-background\/80 {
-  background-color: rgba(10, 10, 10, 0.8) !important;
-}
-
-.text-primary-orange {
-  color: #FFA500 !important;
-}
-
-.text-text-grey {
-  color: #999999 !important;
-}
-
-.text-primary-black {
-  color: #000000 !important;
-}
-
-.border-dark-grey {
-  border-color: #1A1A1A !important;
-}

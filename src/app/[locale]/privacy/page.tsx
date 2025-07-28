@@ -24,7 +24,7 @@ export default function PrivacyPage() {
         <div className="container mx-auto max-w-4xl">
           <Link 
             href="/" 
-            className="inline-flex items-center text-primary-orange hover:text-orange-400 mb-8 transition-colors"
+            className="inline-flex items-center text-orange-500 hover:text-orange-400 mb-8 transition-colors"
           >
             <ArrowLeft className="w-5 h-5 mr-2" />
             <span>Back to Home</span>
@@ -34,19 +34,19 @@ export default function PrivacyPage() {
             {t('title')}
           </h1>
           
-          <p className="text-text-grey mb-12">
+          <p className="text-gray-400 mb-12">
             {t('lastUpdated')}
           </p>
           
           {/* Table of Contents */}
-          <div className="bg-dark-grey rounded-2xl p-6 mb-12">
+          <div className="bg-gray-800 rounded-2xl p-6 mb-12">
             <h2 className="text-xl font-semibold mb-4">Table of Contents</h2>
             <ul className="space-y-2">
               {sections.map((section) => (
                 <li key={section}>
                   <a 
                     href={`#${section}`}
-                    className="text-text-grey hover:text-primary-orange transition-colors"
+                    className="text-gray-400 hover:text-orange-500 transition-colors"
                   >
                     {t(`sections.${section}.title`)}
                   </a>
@@ -62,7 +62,7 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold mb-4">
                   {t(`sections.${section}.title`)}
                 </h2>
-                <p className="text-lg leading-relaxed text-gray-300">
+                <p className="text-lg leading-relaxed text-gray-400">
                   {t(`sections.${section}.content`)}
                 </p>
               </section>

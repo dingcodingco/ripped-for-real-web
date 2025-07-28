@@ -42,20 +42,20 @@ export default function HomePage() {
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="gradient-text">{t('hero.title')}</span>
           </h1>
-          <p className="text-xl md:text-2xl text-text-grey mb-12 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto">
             {t('hero.subtitle')}
           </p>
           <div className="mb-8">
             <DownloadButtons />
           </div>
-          <p className="text-lg text-primary-orange font-semibold">
+          <p className="text-lg text-orange-500 font-semibold">
             {t('hero.cta')}
           </p>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 bg-dark-grey/50">
+      <section className="py-20 px-4 bg-gray-900/50">
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             {t('features.title')}
@@ -68,11 +68,11 @@ export default function HomePage() {
                   key={index}
                   className="feature-card rounded-2xl p-8 transition-all transform hover:scale-105"
                 >
-                  <Icon className="w-12 h-12 text-primary-orange mb-4" />
+                  <Icon className="w-12 h-12 text-orange-500 mb-4" />
                   <h3 className="text-xl font-bold mb-3">
                     {t(`features.${feature.key}.title`)}
                   </h3>
-                  <p className="text-text-grey">
+                  <p className="text-gray-400">
                     {t(`features.${feature.key}.description`)}
                   </p>
                 </div>
@@ -107,7 +107,7 @@ export default function HomePage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 px-4 bg-primary-black">
+      <section className="py-20 px-4 bg-black">
         <div className="container mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             {t('benefits.title')}
@@ -115,7 +115,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {['item1', 'item2', 'item3', 'item4'].map((item, index) => (
               <div key={index} className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
                   <Trophy className="w-6 h-6 text-black" />
                 </div>
                 <p className="text-lg">
@@ -133,7 +133,7 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             {t('cta.title')}
           </h2>
-          <p className="text-xl text-text-grey mb-12 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
             {t('cta.subtitle')}
           </p>
           <DownloadButtons />

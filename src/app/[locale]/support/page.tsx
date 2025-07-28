@@ -21,7 +21,7 @@ export default function SupportPage() {
         <div className="container mx-auto max-w-4xl">
           <Link 
             href="/" 
-            className="inline-flex items-center text-primary-orange hover:text-orange-400 mb-8 transition-colors"
+            className="inline-flex items-center text-orange-500 hover:text-orange-400 mb-8 transition-colors"
           >
             <ArrowLeft className="w-5 h-5 mr-2" />
             <span>Back to Home</span>
@@ -39,11 +39,11 @@ export default function SupportPage() {
             
             <div className="space-y-6">
               {faqs.map((faq, index) => (
-                <div key={index} className="bg-dark-grey rounded-2xl p-6">
+                <div key={index} className="bg-gray-800 rounded-2xl p-6">
                   <h3 className="text-xl font-semibold mb-3">
                     {t(`faq.${faq.key}.question`)}
                   </h3>
-                  <p className="text-gray-300">
+                  <p className="text-gray-400">
                     {t(`faq.${faq.key}.answer`)}
                   </p>
                 </div>
@@ -52,21 +52,21 @@ export default function SupportPage() {
           </section>
           
           {/* Contact Section */}
-          <section className="bg-medium-grey/30 rounded-2xl p-8">
+          <section className="bg-gray-800/50 rounded-2xl p-8">
             <h2 className="text-2xl font-bold mb-6">
               {t('contact.title')}
             </h2>
             
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <Mail className="w-6 h-6 text-primary-orange" />
+                <Mail className="w-6 h-6 text-orange-500" />
                 <p className="text-lg">
                   {t('contact.email')}
                 </p>
               </div>
               
               <div className="flex items-center space-x-3">
-                <Clock className="w-6 h-6 text-primary-orange" />
+                <Clock className="w-6 h-6 text-orange-500" />
                 <p className="text-gray-300">
                   {t('contact.response')}
                 </p>
